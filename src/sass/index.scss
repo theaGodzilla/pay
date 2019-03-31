@@ -1,0 +1,160 @@
+body{
+    background: #F8F8F8;
+    font-size: 0.12rem;
+    font-family: 'Roboto-Bold';
+}
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 4.6rem;
+    background-image: linear-gradient(120deg, #68D199 -20%, #80D46F 100%);
+    
+    .integral{
+        flex: 1;
+        padding:0.1rem 0.3rem 0 .3rem;
+        display: flex;
+        justify-content: center;
+        .int-big{
+            width: 3.3rem;
+            height: 3.3rem;
+            border-radius: 50%;
+            padding: 0.25rem;
+            background: rgba(255,255,255,0.20);
+            .int-medium{
+                width: 2.8rem;
+                height: 2.8rem;
+                border-radius: 50%;
+                padding: 0.25rem;
+                background: rgba(255,255,255,0.20);
+                .int-small{
+                    width: 2.28rem;
+                    height: 2.28rem;
+                    border-radius: 50%;
+                    background: rgba(255,255,255,0.20);
+                    padding-top: 0.78rem;
+                    .int-all{
+                        height: 0.52rem;
+                        display: flex;
+                        align-items: center;
+                        .int-icon{
+                            width: 0.36rem;
+                            height: 0.36rem;
+                            margin-right: 0.03rem;
+                            margin-left: 0.21rem;
+                        }
+                        .int-integral{
+                            color: white;
+                            font-size: 0.44rem;
+                        }
+                    }
+                    .int-title{
+                        color: white;
+                        font-size: 0.22rem;
+                        text-align: center;
+                        font-weight: 100;
+                        margin-top: 0.14rem;
+                    }
+                }
+            }
+        }
+        .history-icon{
+            width: 0.34rem;
+            height: 0.36rem;
+            position: absolute;
+            right: 0.3rem;
+        }
+    }
+}
+#main{
+    margin-top: -0.52rem;
+    width: 100%;
+    padding: 0 0.3rem;
+    .integral-package{
+        margin-right: -0.1rem;
+        li{
+            float: left;
+            width: 3.25rem;
+            height: 3.56rem;
+            background: #fff;
+            box-shadow: 0 2px 16px 0 rgba(0,0,0,0.11);
+            border-radius: 13px;
+            margin-right: 0.1rem;
+            margin-bottom: 0.1rem;
+            position: relative;
+            .red-mark{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 1.13rem;
+                height: 1.09rem;
+            }
+            .int-price-oripirce{
+                font-size: 0.24rem;
+                color: #8B8B8B;
+                text-decoration: line-through;
+                position: absolute;
+                margin-top: 0.05rem;
+            }
+        }
+        .int-one{
+            .int-num{
+               .ali-cen{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 0.54rem;
+                    justify-content: center;
+                    .int-num-icon{
+                        width: 0.37rem;
+                        height: 0.37rem;
+                        margin-right: 0.12rem;
+                    }
+                    .int-num-all{
+                        font-size: 0.36rem;
+                        margin-right: 0.06rem;
+                    }
+                    .int-num-unit{
+                        font-size: 0.2rem;
+                        color: #8B8B8B;
+                        margin-top: 0.13rem;
+                    }
+                } 
+            }
+            .int-price{
+                height: 0.5rem;
+                margin-top: 0.86rem;
+                text-align: center;
+                line-height: 0.5rem;
+                .int-price-spe{
+                    font-size: 0.43rem;
+                    color: #73D390;
+                    margin-right: 0.1rem;
+                    .spe-icon{
+                        .spe-icon-img{
+                            width: 0.21rem;
+                            height: 0.24rem;
+                        }
+                        
+                    }
+                }
+            }
+            .int-pay{
+                display: flex;
+                justify-content: center;
+                .int-pay-tit{
+                    background-image: linear-gradient(40deg,#73D390 0%,#7FCD6D 100%);
+                    box-shadow: 0.09rem 0.07rem 0.11rem -0.01rem rgba(126,224,143,0.30);
+                    border-radius: 0.07rem;
+                    width: 2rem;
+                    height: 0.8rem;
+                    color: #fff;
+                    font-size: 0.3rem;
+                    text-align: center;
+                    line-height: 0.8rem;
+                    margin-top: 0.14rem; 
+                }
+                
+            }
+        }
+    }
+}

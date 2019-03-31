@@ -1,0 +1,66 @@
+body{
+    background: #F8F8F8;
+    font-size: 0.12rem;
+    font-family: 'Roboto-Bold';
+    color: #fff;
+}
+#BuySuccess{
+    display: flex;
+    flex-direction: column;
+    #su-hea{
+        width: 100%;
+        height: 4.2rem;
+        background-image: linear-gradient(150deg, #68D199 0%, #80D46F 100%); 
+        .buy-su{
+            height: 0.63rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0.94rem;
+            .buy-su-icon{
+                width: 0.63rem;
+                height: 0.63rem;
+                margin-right: 0.26rem;
+            }
+            .buy-su-con{
+                font-size: 0.36rem;
+            }
+        }
+        .points-pur{
+            margin-top: 0.66rem;
+            font-size: 0.56rem;
+            text-align: center;
+        }
+        .fai-prompt-words{
+            font-size: 0.36rem;
+            text-align: center;
+            margin-top: 0.76rem;
+            font-weight: 300;
+        }
+        .prompt-words{
+            font-size: 0.26rem;
+            color: rgba(201,237,202,1);
+            text-align: center;
+            margin-top: 0.08rem;
+        }
+
+    }
+    #su-main{
+        width: 100%;
+        flex: 1;
+        text-align: center;
+        .su-main-btn{
+            display: inline-block;
+            height: 0.8rem;
+            width: 5.64rem;
+            background-image: linear-gradient(40deg, #73D390 -10%, #7FCD6D 100%);
+            box-shadow: 0.09rem 0.07rem 0.11rem -0.02rem rgba(126,224,143,0.40);
+            border-radius: 0.07rem;
+            line-height: 0.8rem;
+            font-size: 0.3rem;
+        }
+        .call{
+            margin: 2.74rem 0 0.6rem 0;
+        }
+    }
+}
